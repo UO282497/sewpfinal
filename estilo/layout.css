@@ -1,0 +1,20 @@
+/************************
+/* Autor: Sergio del Rey
+/* Descripción
+/************************/
+body { display: grid;
+    grid-template-areas: 
+        "h h h"
+        "n b t"
+        "n b t"
+        "f f f";
+
+}
+main { grid-area: b;
+}
+nav     { grid-area: n;}
+footer   { grid-area: f;}
+table {grid-area: t;
+}
+header {grid-area: h;
+}
